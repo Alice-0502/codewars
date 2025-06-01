@@ -1,6 +1,6 @@
 function twoSort(s) {
-  let names=["Alice","Flavienne","Kenia"]
-  let sortednames= names.sort()
-  return s.sort()[0].split('').join('***');
+  let names= ['Alice','Flavienne','Kenia']
+  names.sort((a,b)=> a.localeCompare(b));
+  s[0].sort().split('').join('***');
 ​
 }
