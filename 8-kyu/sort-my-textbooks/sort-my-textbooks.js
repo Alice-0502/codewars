@@ -1,6 +1,4 @@
 function sorter(textbooks) {
-  let books=['math','physics','computer science','english']
-  books.sort((a,b)=> a.toLowerCase().localeCompare(b.toLowerCase));
-  return textbooks;
-​
+  let textbooks=['math','physics','computer science']
+  return textbooks.sort((a,b)=> a.toLowerCase().localeCompare(b.toLowerCase));
 }
